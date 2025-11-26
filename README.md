@@ -10,14 +10,14 @@
 
 <br>
 
-<img src="assets/dashboard_preview.png" alt="Dashboard Preview" width="100%" style="border-radius: 8px; box-shadow: 0 0 20px rgba(6, 182, 212, 0.4);">
+<img src="https://ik.imagekit.io/ptyhlytomn/Screenshot%202025-11-20%20220401.png" width="100%" style="border-radius: 8px; box-shadow: 0 0 20px rgba(6, 182, 212, 0.4);">
 
 <br>
 
 ### *Detect. Analyze. Neutralize.*
 *A zero-dependency, client-side heuristic engine for instant phishing detection.*
 
-[ 🚀 Launch Live Demo ](https://ik.imagekit.io/ptyhlytomn/M_phishgaurd%20Project%20Video.mp4) • [ 🐛 Report Bug ](https://github.com/AND-SHAL-0813/MS_PhishGuard/issues)
+[ 🚀 Launch Live Demo ](https://ik.imagekit.io/ptyhlytomn/MS-phishgaurd.html) • [ 🐛 Report Bug ](https://github.com/AND-SHAL-0813/MS_PhishGuard/issues)
 
 </div>
 
@@ -25,7 +25,7 @@
 
 ## 📡 System Overview
 
-**MS_PhishGuard** is a lightweight cyber-defense tool that simulates advanced threat detection directly in the browser. By abandoning traditional backend dependencies, it offers zero-latency analysis of URLs using a custom **JavaScript Heuristic Engine** wrapped in a responsive, cyberpunk-themed interface.
+**MS_PhishGuard** is a lightweight cyber-defense tool that simulates advanced threat detection directly in the browser. By abandoning traditional backend dependencies, it offers zero-latency analysis of URLs using a custom **JavaScript Heuristic Engine** wrapped in a responsive, cyberpunk-themed interface. MS_PhishGuard is a client-side web application designed to simulate and visualize phishing threat detection. Built with a futuristic "Cyberpunk" aesthetic, it provides a dashboard for analyzing URLs, tracking threat statistics, and monitoring recent security activity.
 </div>
 
 ---
@@ -56,7 +56,7 @@ Since MS_PhishGuard is architected as a lightweight client-side tool, no complex
 #### 1.Clone the Repository
 
 
-git clone [https://github.com/AND-SHAL-0813/MS_PhishGuard.git]([https://github.com/Mani-11311/MS_PhishGuard.git])
+git clone [https://github.com/AND-SHAL-0813/MS_PhishGuard.git](https://github.com/AND-SHAL-0813/MS_PhishGuard.git)
 Initialize the System
 
 ##### 2.Navigate to the project directory.
@@ -66,5 +66,40 @@ Open MS-phishgaurd.html in any modern browser (Chrome/Edge/Firefox).
 #### 3.Execute Scan
 
 Click "ACTIVATE PHISHGUARD" to engage the threat detection engine.
+</div>
 
-<div align="center"> <b>Developed by Mani Chaturvedi </b># MS_PhishGuard
+---
+## 📸 Screenshots
+
+### Dashboard Overview
+<img width="1894" height="904" alt="Screenshot 2025-11-20 220401" src="https://github.com/user-attachments/assets/c0a098b0-422d-4d64-85f8-e4fbffbc9930" />
+</div>
+
+---
+### Analysis Results
+
+Detailed breakdown of URL scanning, flagging suspicious parameters and domain reputation.</div>
+
+---
+<img width="1263" height="884" alt="Screenshot 2025-11-20 220805" src="https://github.com/user-attachments/assets/ff491220-43e3-4e1d-971d-972f6bc32e46" /></div>
+
+---
+<img width="1884" height="896" alt="Screenshot 2025-11-20 220648" src="https://github.com/user-attachments/assets/f8d4cb01-6131-4e41-ae84-a2cd09e645ce" /></div>
+
+---
+<img width="1900" height="866" alt="Screenshot 2025-11-20 220509" src="https://github.com/user-attachments/assets/3aeab95e-7f6e-4088-b2ba-2b89c7e7bf7c" />
+
+</div>
+
+---
+## 🎥 Video Demo
+
+### See MS_PhishGuard in action.
+<br>Click the link below to watch the video:
+https://ik.imagekit.io/ptyhlytomn/M_phishgaurd%20Project%20Video.mp4?updatedAt=1763821028036
+</div>
+
+---
+<div align="center"> <b>Developed by SHALINI ANAND </b>
+
+
