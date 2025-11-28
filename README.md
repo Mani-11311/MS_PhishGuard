@@ -100,6 +100,6 @@ https://ik.imagekit.io/ptyhlytomn/M_phishgaurd%20Project%20Video.mp4?updatedAt=1
 </div>
 
 ---
-<div align="center"> <b>Developed by MANI CHATURVEDI </b>
+<div align="center"> <b>Developed by MANI CHATURVEDI And Reporetory done by SHALINI ANAND </b>
 
 
