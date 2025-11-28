@@ -56,7 +56,7 @@ Since MS_PhishGuard is architected as a lightweight client-side tool, no complex
 #### 1.Clone the Repository
 
 
-git clone [https://github.com/AND-SHAL-0813/MS_PhishGuard.git](https://github.com/AND-SHAL-0813/MS_PhishGuard.git)
+git clone [https://github.com/Mani-11311/MS_PhishGuard.git](https://github.com/Mani-11311/MS_PhishGuard.git)
 Initialize the System
 
 ##### 2.Navigate to the project directory.
