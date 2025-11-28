@@ -14,7 +14,7 @@ We take security seriously! Please report all suspected security vulnerabilities
 If you discover a potential security issue in MS_PhishGuard:
 
 - Please **do not disclose publicly**.
-- Email [manichaturvedi1719@gmail.com] directly, or create a ‘security’ issue (github private).
+- Email [manichaturvedi1719@gmail.com , shalini.24bai10849@vitbhopal.ac.in] directly, or create a ‘security’ issue (github private).
 - We will investigate promptly.
 
 ## Community Best Practices
