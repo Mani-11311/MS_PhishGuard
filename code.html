@@ -10,7 +10,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap');
         
         :root {
-            --primary: #06b6d4; /* Tailwind Cyan-500 for sharper look */
+            --primary: #06b6d4;
             --secondary: #1e293b;
             --accent: #f59e0b;
             --dark: #0f172a;
@@ -32,7 +32,6 @@
             font-family: 'Orbitron', sans-serif;
         }
         
-        /* Custom Scrollbar for Cyber Look */
         body::-webkit-scrollbar {
             width: 8px;
         }
@@ -77,7 +76,7 @@
                 linear-gradient(rgba(2, 6, 23, 0.9) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(2, 6, 23, 0.9) 1px, transparent 1px);
             background-size: 50px 50px;
-            opacity: 0.15; /* Increased grid opacity */
+            opacity: 0.15;
             z-index: -1;
         }
         
@@ -112,9 +111,9 @@
         }
         
         .dark-card {
-            background: rgba(15, 23, 42, 0.8); /* Slightly less transparency */
-            backdrop-filter: blur(15px); /* Stronger blur */
-            border: 1px solid rgba(6, 182, 212, 0.3); /* Border matching primary color */
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(6, 182, 212, 0.3);
             transition: all 0.3s ease;
         }
         .dark-card:hover {
@@ -123,12 +122,12 @@
         }
         
         .dark-overlay {
-            background: rgba(2, 6, 23, 0.95); /* Nearly opaque header/footer */
-            backdrop-filter: blur(8px); /* Frosted glass effect */
+            background: rgba(2, 6, 23, 0.95);
+            backdrop-filter: blur(8px);
         }
         
         .progress-bar {
-            height: 10px; /* Slightly thicker bar */
+            height: 10px;
             background-color: rgba(30, 41, 59, 0.7);
             border-radius: 5px;
             overflow: hidden;
@@ -146,7 +145,7 @@
         .progress-low { background-color: var(--success); }
         
         .feature-analysis {
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Wider columns */
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 15px;
             margin-top: 20px;
         }
@@ -177,7 +176,6 @@
             box-shadow: inset 0 0 5px rgba(239, 68, 68, 0.2);
         }
 
-        /* Input status classes */
         .input-safe {
             border-color: var(--success) !important;
             box-shadow: 0 0 8px rgba(16, 185, 129, 0.8) !important;
@@ -191,7 +189,6 @@
             box-shadow: 0 0 8px rgba(239, 68, 68, 0.8) !important;
         }
 
-        /* Scan Button Enhancement */
         #scan-btn {
             background-color: var(--dark);
             border: 2px solid var(--primary);
@@ -209,7 +206,6 @@
             cursor: not-allowed;
         }
 
-        /* Dashboard Table Enhancement */
         .dashboard-table th {
             font-size: 0.9rem;
             border-bottom: 2px solid rgba(6, 182, 212, 0.4);
@@ -221,8 +217,6 @@
             background-color: rgba(6, 182, 212, 0.1);
         }
 
-        /* *** Particle Visibility Improvement: LARGER, BRIGHTER, GLOWING ***
-        */
         .floating-particles {
             position: fixed;
             top: 0;
@@ -236,18 +230,17 @@
             position: absolute;
             background: var(--primary);
             border-radius: 50%;
-            opacity: 0.6; /* Increased overall base opacity */
-            box-shadow: 0 0 8px rgba(6, 182, 212, 0.9); /* Subtle glow added */
+            opacity: 0.6;
+            box-shadow: 0 0 8px rgba(6, 182, 212, 0.9);
             animation: float 20s infinite ease-in-out;
         }
         @keyframes float {
-            0% { transform: translateY(100vh) scale(0.5); opacity: 0.4; } /* Brighter start */
-            5% { opacity: 0.8; } /* Brighter peak */
-            50% { opacity: 0.6; } /* Brighter mid-point */
-            95% { opacity: 0.8; } /* Brighter peak */
-            100% { transform: translateY(-50vh) scale(1.5); opacity: 0.4; } /* Brighter end */
+            0% { transform: translateY(100vh) scale(0.5); opacity: 0.4; }
+            5% { opacity: 0.8; }
+            50% { opacity: 0.6; }
+            95% { opacity: 0.8; }
+            100% { transform: translateY(-50vh) scale(1.5); opacity: 0.4; }
         }
-        /* Randomized particle sizes and delays (increased size for visibility) */
         .particle:nth-child(3n+1) { width: 5px; height: 5px; animation-duration: 25s; animation-delay: 1s; } 
         .particle:nth-child(3n+2) { width: 8px; height: 8px; animation-duration: 30s; animation-delay: 5s; }
         .particle:nth-child(3n)   { width: 4px; height: 4px; animation-duration: 22s; animation-delay: 10s; }
@@ -264,7 +257,7 @@
         
         .active-nav {
             color: var(--primary);
-            border-bottom: 3px solid var(--primary); /* Thicker active border */
+            border-bottom: 3px solid var(--primary);
             padding-bottom: 5px;
         }
         
@@ -593,8 +586,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // --- Particles, Navigation Setup --- 
-            // Create floating particles
             const particlesContainer = document.getElementById('particles-container');
             const particleCount = 50;
             
@@ -613,7 +604,6 @@
                 particlesContainer.appendChild(particle);
             }
             
-            // Page Navigation
             const pages = document.querySelectorAll('.page');
             const navLinks = document.querySelectorAll('.nav-link');
             const mobileMenu = document.getElementById('mobile-menu');
@@ -651,22 +641,18 @@
                 mobileNav.classList.toggle('hidden');
             });
             
-            // Initialize with home page
             showPage('home');
             
-            // URL Scanning Elements
             const scanBtn = document.getElementById('scan-btn');
             const urlInput = document.getElementById('url-input');
             const resultModal = document.getElementById('result-modal');
             const resultContent = document.getElementById('result-content');
             const closeModal = document.getElementById('close-modal');
             
-            // Dashboard counters
             const totalScans = document.getElementById('total-scans');
             const phishingDetected = document.getElementById('phishing-detected');
             const safeUrls = document.getElementById('safe-urls');
 
-            // --- Local Storage and Data Management ---
             let userData = {
                 totalScans: 0,
                 phishingCount: 0,
@@ -685,13 +671,11 @@
                 localStorage.setItem('m_phishguard_data', JSON.stringify(userData));
             }
 
-            // --- Dashboard Updates ---
             function updateDashboard() {
                 totalScans.textContent = userData.totalScans;
                 phishingDetected.textContent = userData.phishingCount;
                 safeUrls.textContent = userData.safeCount;
                 
-                // Update scan results table
                 const scanResults = document.getElementById('scan-results');
                 
                 if (userData.scanHistory.length === 0) {
@@ -701,7 +685,6 @@
                     
                     const riskCounts = { safe: 0, suspicious: 0, phishing: 0 };
                     
-                    // Count risk levels for the chart (only last 10 are stored)
                     userData.scanHistory.forEach(scan => {
                         riskCounts[scan.status]++;
                     });
@@ -711,7 +694,6 @@
                                             scan.status === 'suspicious' ? 'bg-amber-900 text-amber-400' : 'bg-red-900 text-red-400';
                         const statusText = scan.status.toUpperCase();
                         
-                        // Table row
                         tableHTML += `
                             <tr class="border-b border-slate-700/50">
                                 <td class="py-3 text-slate-300 terminal-text max-w-[250px] truncate px-2">${scan.url}</td>
@@ -726,7 +708,6 @@
                     });
                     scanResults.innerHTML = tableHTML;
 
-                    // Attach event listeners for View Details buttons
                     document.querySelectorAll('.view-details-btn').forEach(btn => {
                         btn.addEventListener('click', function() {
                             const index = parseInt(this.getAttribute('data-index'));
@@ -739,13 +720,12 @@
                         });
                     });
 
-                    // Update Risk Distribution Chart
                     const totalHistory = userData.scanHistory.length;
                     
                     const updateChartBar = (id, count, color) => {
                         const element = document.getElementById(id);
                         const percentage = totalHistory > 0 ? (count / totalHistory) * 100 : 0;
-                        const height = Math.min(100, percentage) * 1.5; // Max height 150px
+                        const height = Math.min(100, percentage) * 1.5;
                         const bar = element.querySelector('div');
                         bar.style.height = `${height}px`;
                         document.getElementById(`count-${id.split('-')[2]}`).textContent = count;
@@ -757,7 +737,6 @@
                 }
             }
 
-            // --- Advanced URL Analysis Logic (Kept from previous enhancement) ---
             const legitimateDomains = [
                 'google.com', 'facebook.com', 'youtube.com', 'twitter.com', 'instagram.com',
                 'linkedin.com', 'microsoft.com', 'apple.com', 'amazon.com', 'netflix.com',
@@ -803,17 +782,14 @@
                     return score;
                 };
 
-                // 1. IP Address in Hostname (High Risk)
                 if (/^(\d+\.){3}\d+$/.test(hostname)) {
                     currentRisk += addRisk(35, 'IP Address used instead of Domain Name', 'danger');
                 }
                 
-                // 2. @ Symbol in URL (High Risk)
                 if (url.includes('@')) {
                     currentRisk += addRisk(25, '@ Symbol (Userinfo) present in URL', 'danger');
                 }
                 
-                // 3. Typosquatting/Homoglyph Simulation (High Risk)
                 let isHomoglyph = false;
                 const baseDomain = hostname.split('.').slice(-2).join('.');
                 for (const legitDomain of legitimateDomains) {
@@ -837,20 +813,17 @@
                     currentRisk += addRisk(30, 'Domain Similarity to Known Target (Typosquatting)', 'danger');
                 }
                 
-                // 4. URL Length (Medium Risk)
                 if (url.length > 150) {
                     currentRisk += addRisk(15, 'URL Length Exceeds Typical Threshold (>150 chars)', 'suspicious');
                 } else if (url.length > 100) {
                     currentRisk += addRisk(5, 'Long URL Detected (>100 chars)', 'suspicious');
                 }
                 
-                // 5. Hostname Entropy (Medium Risk)
                 const entropy = calculateEntropy(hostname);
                 if (entropy > 3.5) { 
                     currentRisk += addRisk(20, 'High Hostname Entropy (Random String Detection)', 'suspicious');
                 }
                 
-                // 6. Suspicious Keywords in Path (Medium Risk)
                 const suspiciousKeywords = ['login', 'secure', 'account', 'verify', 'update', 'banking', 'paypal', 'admin', 'oauth'];
                 const hasSuspiciousKeyword = suspiciousKeywords.some(keyword => 
                     pathname.toLowerCase().includes(keyword)
@@ -859,20 +832,17 @@
                     currentRisk += addRisk(10, 'Targeted Phrasing in URL Path/Query', 'suspicious');
                 }
 
-                // 7. No HTTPS (Medium Risk)
                 if (urlObj.protocol !== 'https:') {
                     currentRisk += addRisk(10, 'Insecure Protocol (No HTTPS/SSL Certificate)', 'suspicious');
                 } else {
                     currentRisk = Math.max(0, currentRisk - addRisk(-5, 'Secure Protocol (HTTPS) Verified', 'safe'));
                 }
                 
-                // 8. Multiple Subdomains (Low Risk)
                 const subdomainCount = hostname.split('.').length - 2;
                 if (subdomainCount > 3) {
                     currentRisk += addRisk(8, 'Excessive Subdomain Depth (>3)', 'suspicious');
                 }
                 
-                // 9. Known Legitimate Domain (Mitigating Factor)
                 const isLegitimate = legitimateDomains.some(domain => hostname.includes(domain));
                 if (isLegitimate && !isHomoglyph) {
                     currentRisk = Math.max(0, currentRisk - addRisk(-20, 'Domain Matches Known Trust List', 'safe'));
@@ -880,10 +850,8 @@
                     currentRisk += addRisk(10, 'Domain Unknown in Trust List (Simulated New/Untested Domain)', 'suspicious');
                 }
                 
-                // Ensure risk score is between 0 and 100
-                const finalRisk = Math.max(0, Math.min(100, Math.round(currentRisk * 1.05))); // Slight adjustment
+                const finalRisk = Math.max(0, Math.min(100, Math.round(currentRisk * 1.05)));
                 
-                // Determine status based on risk score thresholds
                 let status;
                 if (finalRisk < 30) {
                     status = 'safe';
@@ -900,7 +868,6 @@
                 };
             }
 
-            // --- Real-time Input Validation ---
             urlInput.addEventListener('input', function() {
                 const url = urlInput.value.trim();
                 if (url.length < 5) {
@@ -926,15 +893,12 @@
                     return;
                 }
                 
-                // Show loading state
                 scanBtn.innerHTML = '<i class="fas fa-microchip fa-spin mr-2"></i> ANALYZING URL HASHES...';
                 scanBtn.disabled = true;
                 
-                // Simulate API call delay
                 setTimeout(function() {
                     const result = analyzeURL(url);
                     
-                    // Update user data
                     userData.totalScans++;
                     if (result.status === 'phishing' || result.status === 'suspicious') {
                         userData.phishingCount++;
@@ -953,7 +917,6 @@
                         features: result.features
                     });
                     
-                    // Keep only last 10 scans
                     if (userData.scanHistory.length > 10) {
                         userData.scanHistory.pop();
                     }
@@ -961,10 +924,8 @@
                     saveData();
                     updateDashboard();
                     
-                    // Display result
                     showResult(url, result);
                     
-                    // Reset button
                     scanBtn.innerHTML = '<i class="fas fa-crosshairs mr-3"></i> ACTIVATE PHISHGUARD';
                     scanBtn.disabled = false;
                 }, 1500);
@@ -1013,7 +974,6 @@
                         </div>
                 `;
                 
-                // Add feature analysis if available
                 if (result.features && result.features.length > 0) {
                     html += `
                         <div class="mt-8 text-left">
@@ -1051,7 +1011,6 @@
                 }
             });
 
-            // Initialize on load
             loadData();
             updateDashboard();
         });
