@@ -96,7 +96,7 @@ Detailed breakdown of URL scanning, flagging suspicious parameters and domain re
 
 ### See MS_PhishGuard in action.
 <br>Click the link below to watch the video:
-[(https://ik.imagekit.io/38xpc0udp/Video%20Project%201.mp4?tr=orig)]
+[(https://ik.imagekit.io/38xpc0udp/Video%20Project%201..mp4)]
 </div>
 
 ---
