@@ -17,7 +17,7 @@
 ### *Detect. Analyze. Neutralize.*
 *A zero-dependency, client-side heuristic engine for instant phishing detection.*
 
-[ 🚀 Launch Live Demo ](https://ik.imagekit.io/ptyhlytomn/MS-phishgaurd.html) • [ 🐛 Report Bug ](https://github.com/AND-SHAL-0813/MS_PhishGuard/issues)
+[ 🚀 Launch Live Demo ](https://ms-pishgaurd.netlify.app/) • [ 🐛 Report Bug ](https://github.com/AND-SHAL-0813/MS_PhishGuard/issues)
 
 </div>
 
